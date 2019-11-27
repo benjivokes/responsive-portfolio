@@ -19,6 +19,21 @@
 	text-align: right;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	color: gray;
+}
+.navlinks:link, .navlinks:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.navlinks:hover {
+    color: gray;
+    text-decoration: underline !important;
+}
+
+.navlinks:active {
+    color: teal;
+    text-decoration: underline;
 }
 
 body {
