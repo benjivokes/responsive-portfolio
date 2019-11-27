@@ -66,6 +66,18 @@ h1 {
 	margin-top: 0; 
 }
 
+.footer {
+	border: 0px solid teal;
+	border-top-width: 4px;
+	background: gray;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
 	 .container {
