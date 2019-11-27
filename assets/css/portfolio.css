@@ -39,10 +39,10 @@
 body {
 	background-color: whitesmoke;
 }
-main {
+#maincontent {
 	border: thin solid lightgray;
-	margin-top: 20px;
 	background: white;
+	margin-top: 20px;
 }
 
 h1 {
@@ -52,10 +52,19 @@ h1 {
     border-width: 0 0 2px 0px;
     border-style: solid;
     border-color: lightgray;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-top: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
+.inlineimage.float-left {
+	margin: 15px;
+	margin-left: 0;	 
+}
+.inlineimage.float-left:first-of-type {
+	margin-top: 0; 
+}
 
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -65,4 +74,21 @@ h1 {
 	#links {
 		text-align: center;
 	}
+	.inlineimage {
+		width: 325px;
+		height: auto;
+	}
+	#maincontent {
+		margin: 15px;
+		width: calc(100% - 32px);
+	}
+
 }
+
+@media screen and (min-width: 768px) {
+	.inlineimage {
+		width: 200px;
+		height: auto;
+	}
+}
+
