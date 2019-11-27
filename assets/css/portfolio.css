@@ -1,0 +1,32 @@
+#myname {
+	background-color: teal;
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 24pt;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#navbar {
+	background: white;
+    border-bottom: lightgray;
+    border-width: 0px 0px 2px 0px;
+    border-style: solid;
+    margin: 0 auto;
+   
+}
+#links {
+	text-align: right;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+	 .container {
+		max-width: 767px;
+	}
+}
