@@ -2,7 +2,12 @@
 **Author:** Benjamin Vokes ben@mym.ac
 
 ## Description
-Description of project goes here
+As a web developer I want
+
+I a deployed portfolio
+
+SO THAT I can showcase my applications to potential employers and clients
+
 
 ## How to Install/View
 Download project, open index.html, located in the root directory, in a web browser.
