@@ -1,0 +1,160 @@
+body {
+    background: whitesmoke;
+    padding: 0px;
+    margin: 0px;
+}
+#navbar {
+    background: white;
+    border-bottom: lightgray;
+    border-width: 0px 0px 1px 0px;
+    border-style: solid;
+    overflow: auto;
+}
+#navbarcontent {
+    width: 960px;
+    margin: auto;
+}
+#myname {
+    font-family: Georgia, serif;
+    color: white;
+    background: teal;
+    font-size: 24pt;
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    vertical-align: middle;
+}
+#links {
+    float: right;
+    overflow: auto;
+    margin-top: 30px;
+
+}
+.pagelink {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;  
+    border-width: 0px 1px 0px 1px;
+    border-style: solid;
+    border-color: lightgray;
+    padding: 0px 5px;
+}
+.pagelink a:link, .pagelink a:visited {
+    color: gray;
+    text-decoration: none;
+}
+
+.pagelink a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.pagelink a:active {
+    color: teal;
+    text-decoration: underline;
+}
+
+.pagelink:first-child, .pagelink:last-child{
+    border-width: 0px;
+}
+#content {
+    margin: auto;
+    padding: 20px;
+    width: 920px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: thin;
+    overflow: auto;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: gray;
+}
+footer {
+
+    border-top: 4px;
+    border-top-color: teal;
+    border-top-style: solid;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: gray;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+h1 {
+    color: teal;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-width: 0 0 2px 0px;
+    border-style: solid;
+    border-color: lightgray;
+    padding-bottom: 30px;
+}
+
+#myimage {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.inputfield  {
+    width: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 14px;
+}
+.button {
+    color: white;
+    background: teal;
+}
+
+.portfolioitem {
+    width: 275px;
+    height: 200px;
+    border: thin;
+    border-color: lightgray;
+    border-style: solid;
+    position: relative;
+    float: left;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    overflow: hidden;
+}
+.portfolioitem img {
+    width: 275px;
+}
+.portfolioitemlabel {
+    background: teal;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    padding: 10px 0px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
