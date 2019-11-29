@@ -3,7 +3,7 @@ body {
     padding: 0px;
     margin: 0px;
 }
-#navbar {
+/* #navbar {
     background: white;
     border-bottom: lightgray;
     border-width: 0px 0px 1px 0px;
@@ -58,7 +58,7 @@ body {
 
 .pagelink:first-child, .pagelink:last-child{
     border-width: 0px;
-}
+} */
 #content {
     margin: auto;
     padding: 20px;
@@ -90,7 +90,7 @@ footer {
     padding-bottom: 0px;
     margin-bottom: 0px;
 }
-h1 {
+/* h1 {
     color: teal;
     font-size: 24px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -98,7 +98,7 @@ h1 {
     border-style: solid;
     border-color: lightgray;
     padding-bottom: 30px;
-}
+} */
 
 #myimage {
     width: 200px;
